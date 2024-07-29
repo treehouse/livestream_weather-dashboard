@@ -1,0 +1,79 @@
+/* App.css */
+
+/* General App Styles */
+body {
+  background-color: #201E43;
+  color: #FFFFFF;
+}
+
+.app {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.error {
+  color: #ed2618;
+  margin-top: 10px;
+}
+
+/* SearchBar Styles */
+.search-bar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.search-bar .MuiTextField-root {
+  margin-right: 10px;
+  background-color: #FFFFFF;
+  border-radius: 4px;
+}
+
+.search-bar .MuiInputBase-root {
+  color: #201E43;
+}
+
+.search-bar .MuiButton-root {
+  background-color: #7654FF;
+  color: #FFFFFF;
+}
+
+.search-bar .MuiButton-root:hover {
+  background-color: #660077;
+}
+
+/* WeatherCard Styles */
+.weather-card {
+  margin: 20px auto;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #660077;
+  color: #FFFFFF;
+}
+
+.weather-card img {
+  display: block;
+  margin: 10px auto;
+}
+
+/* SearchHistory Styles */
+.search-history {
+  margin-top: 20px;
+}
+
+.search-history .MuiTypography-root {
+  color: #FFFFFF;
+}
+
+.search-history .MuiListItem-root {
+  cursor: pointer;
+  background-color: #708090;
+  margin: 5px 0;
+  border-radius: 4px;
+  color: #FFFFFF;
+}
+
+.search-history .MuiListItem-root:hover {
+  background-color: #ed2618;
+}
